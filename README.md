@@ -65,3 +65,6 @@ Se inyectó tráfico UDP para validar la capacidad del túnel sin fragmentación
    ```bash
    git clone [https://github.com/Jhon1176/VYOS-SRV6-con-el-servicio-END.DT46.git](https://github.com/Jhon1176/VYOS-SRV6-con-el-servicio-END.DT46.git)
    cd VYOS-SRV6-con-el-servicio-END.DT46
+   
+## Referencia
+Documentación y conceptos teóricos basados en: [Implementación de SRv6 en VyOS (Onvox).](https://onvox.net/2024/02/01/srv6-vyos/#ipv6)
