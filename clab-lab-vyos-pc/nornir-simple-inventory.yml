@@ -1,0 +1,36 @@
+---
+PC1:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.16
+PC2:
+    username: 
+    password: 
+    platform: linux
+    hostname: 172.20.20.17
+CE1:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.14
+CE2:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.15
+P1:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.11
+PE1:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.12
+PE2:
+    username: admin
+    password: admin
+    platform: vyosnetworks_vyos
+    hostname: 172.20.20.13

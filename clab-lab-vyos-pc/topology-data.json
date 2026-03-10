@@ -1,0 +1,348 @@
+{
+  "name": "lab-vyos-pc",
+  "type": "clab",
+  "clab": {
+    "config": {
+      "prefix": "clab",
+      "mgmt": {
+        "network": "clab",
+        "bridge": "br-0350a0560a2b",
+        "ipv4-subnet": "172.20.20.0/24",
+        "ipv4-gw": "172.20.20.1",
+        "ipv6-subnet": "3fff:172:20:20::/64",
+        "ipv6-gw": "3fff:172:20:20::1",
+        "external-access": true
+      }
+    }
+  },
+  "ssh-pub-keys": [],
+  "nodes": {
+    "CE1": {
+      "index": "0",
+      "shortname": "CE1",
+      "longname": "clab-lab-vyos-pc-CE1",
+      "fqdn": "CE1.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/CE1",
+      "kind": "vyosnetworks_vyos",
+      "image": "vyos:1.5",
+      "mgmt-net": "",
+      "mgmt-intf": "eth0",
+      "mgmt-ipv4-address": "172.20.20.14",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::5",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "vyosnetworks_vyos",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/CE1",
+        "clab-node-longname": "clab-lab-vyos-pc-CE1",
+        "clab-node-name": "CE1",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+      ]
+    },
+    "CE2": {
+      "index": "1",
+      "shortname": "CE2",
+      "longname": "clab-lab-vyos-pc-CE2",
+      "fqdn": "CE2.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/CE2",
+      "kind": "vyosnetworks_vyos",
+      "image": "vyos:1.5",
+      "mgmt-net": "",
+      "mgmt-intf": "eth0",
+      "mgmt-ipv4-address": "172.20.20.15",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::3",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "vyosnetworks_vyos",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/CE2",
+        "clab-node-longname": "clab-lab-vyos-pc-CE2",
+        "clab-node-name": "CE2",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+      ]
+    },
+    "P1": {
+      "index": "2",
+      "shortname": "P1",
+      "longname": "clab-lab-vyos-pc-P1",
+      "fqdn": "P1.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/P1",
+      "kind": "vyosnetworks_vyos",
+      "image": "vyos:1.5",
+      "mgmt-net": "",
+      "mgmt-intf": "eth0",
+      "mgmt-ipv4-address": "172.20.20.11",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::4",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "vyosnetworks_vyos",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/P1",
+        "clab-node-longname": "clab-lab-vyos-pc-P1",
+        "clab-node-name": "P1",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+      ]
+    },
+    "PC1": {
+      "index": "3",
+      "shortname": "PC1",
+      "longname": "clab-lab-vyos-pc-PC1",
+      "fqdn": "PC1.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PC1",
+      "kind": "linux",
+      "image": "mi-pc-ssh:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.16",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::6",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PC1",
+        "clab-node-longname": "clab-lab-vyos-pc-PC1",
+        "clab-node-name": "PC1",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "PC2": {
+      "index": "4",
+      "shortname": "PC2",
+      "longname": "clab-lab-vyos-pc-PC2",
+      "fqdn": "PC2.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PC2",
+      "kind": "linux",
+      "image": "mi-pc-ssh:latest",
+      "mgmt-net": "",
+      "mgmt-intf": "",
+      "mgmt-ipv4-address": "172.20.20.17",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::2",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "linux",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PC2",
+        "clab-node-longname": "clab-lab-vyos-pc-PC2",
+        "clab-node-name": "PC2",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+        {
+          "host-ip": "",
+          "host-port": 0,
+          "port": 22,
+          "protocol": "tcp"
+        }
+      ]
+    },
+    "PE1": {
+      "index": "5",
+      "shortname": "PE1",
+      "longname": "clab-lab-vyos-pc-PE1",
+      "fqdn": "PE1.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PE1",
+      "kind": "vyosnetworks_vyos",
+      "image": "vyos:1.5",
+      "mgmt-net": "",
+      "mgmt-intf": "eth0",
+      "mgmt-ipv4-address": "172.20.20.12",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::7",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "vyosnetworks_vyos",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PE1",
+        "clab-node-longname": "clab-lab-vyos-pc-PE1",
+        "clab-node-name": "PE1",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+      ]
+    },
+    "PE2": {
+      "index": "6",
+      "shortname": "PE2",
+      "longname": "clab-lab-vyos-pc-PE2",
+      "fqdn": "PE2.lab-vyos-pc.io",
+      "group": "",
+      "labdir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PE2",
+      "kind": "vyosnetworks_vyos",
+      "image": "vyos:1.5",
+      "mgmt-net": "",
+      "mgmt-intf": "eth0",
+      "mgmt-ipv4-address": "172.20.20.13",
+      "mgmt-ipv4-prefix-length": 24,
+      "mgmt-ipv6-address": "3fff:172:20:20::8",
+      "mgmt-ipv6-prefix-length": 64,
+      "mac-address": "",
+      "labels": {
+        "clab-mgmt-net-bridge": "br-0350a0560a2b",
+        "clab-node-group": "",
+        "clab-node-kind": "vyosnetworks_vyos",
+        "clab-node-lab-dir": "/home/ubuntu/vyos_endt46/clab-lab-vyos-pc/PE2",
+        "clab-node-longname": "clab-lab-vyos-pc-PE2",
+        "clab-node-name": "PE2",
+        "clab-node-type": "",
+        "clab-owner": "ubuntu",
+        "clab-topo-file": "/home/ubuntu/vyos_endt46/vyos_enddt46.clab.yml",
+        "containerlab": "lab-vyos-pc"
+      },
+      "port-bindings": [
+      ]
+    }
+  },
+  "links": [
+    {
+      "endpoints": {
+        "a": {
+          "node": "P1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:f7:7f:75",
+          "peer": "z"
+        },
+        "z": {
+          "node": "PE1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:67:6f:18",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "P1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:57:7c:82",
+          "peer": "z"
+        },
+        "z": {
+          "node": "PE2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:e9:a7:de",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "PE2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:fd:8a:81",
+          "peer": "z"
+        },
+        "z": {
+          "node": "CE2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:0a:ea:b1",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "PE1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:26:ab:a0",
+          "peer": "z"
+        },
+        "z": {
+          "node": "CE1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:83:c7:03",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "CE1",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:f5:a9:d7",
+          "peer": "z"
+        },
+        "z": {
+          "node": "PC1",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:44:c5:df",
+          "peer": "a"
+        }
+      }
+    },
+    {
+      "endpoints": {
+        "a": {
+          "node": "CE2",
+          "interface": "eth2",
+          "mac": "aa:c1:ab:bb:14:a5",
+          "peer": "z"
+        },
+        "z": {
+          "node": "PC2",
+          "interface": "eth1",
+          "mac": "aa:c1:ab:83:10:3c",
+          "peer": "a"
+        }
+      }
+    }
+  ]
+}

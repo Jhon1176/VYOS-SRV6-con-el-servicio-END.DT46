@@ -1,0 +1,251 @@
+{
+  "freeTextAnnotations": [
+    {
+      "id": "freeText_1773180875562",
+      "text": "192.168.10.0/24",
+      "position": {
+        "x": -420.0032216393115,
+        "y": 388.4724041264325
+      },
+      "fontSize": 14,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773180899305",
+      "text": "192.168.20.0/24",
+      "position": {
+        "x": 617.8184351381519,
+        "y": 390.68524347990257
+      },
+      "fontSize": 14,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773180946785",
+      "text": "ASN 65000",
+      "position": {
+        "x": 97.80118707268517,
+        "y": 136.20871783084434
+      },
+      "fontSize": 14,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773180960705",
+      "text": "ASN 65001",
+      "position": {
+        "x": -358.04371974214956,
+        "y": 309.9166070782449
+      },
+      "fontSize": 14,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773180977811",
+      "text": "ASN 65005",
+      "position": {
+        "x": 581.5573332083168,
+        "y": 312.9708098917146
+      },
+      "fontSize": 14,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "left",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773181045064",
+      "text": "SRv6 Locator (L3VPN):\n\n2001:db8:2:aaa :: /64\n",
+      "position": {
+        "x": -123.85920319301368,
+        "y": 267.8726593623136
+      },
+      "fontSize": 10,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "right",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773181087992",
+      "text": "SRv6 Locator (L3VPN):\n\n2001:db8:4:aaa :: /64",
+      "position": {
+        "x": 320.1915420964274,
+        "y": 270.0854987157836
+      },
+      "fontSize": 10,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "center",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773181150049",
+      "text": "172.16.12.0/24",
+      "position": {
+        "x": -246.10722565314998,
+        "y": 279.51781306662883
+      },
+      "fontSize": 10,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "right",
+      "fontFamily": "Arial"
+    },
+    {
+      "id": "freeText_1773181188307",
+      "text": "172.16.45.0/24",
+      "position": {
+        "x": 473.39889614607966,
+        "y": 275.66503597533443
+      },
+      "fontSize": 10,
+      "fontColor": "#cccccc",
+      "fontWeight": "normal",
+      "fontStyle": "normal",
+      "textDecoration": "none",
+      "textAlign": "right",
+      "fontFamily": "Arial"
+    }
+  ],
+  "freeShapeAnnotations": [
+    {
+      "id": "freeShape_1773180798403",
+      "shapeType": "circle",
+      "position": {
+        "x": -425.53532002298675,
+        "y": 298.85241031089475
+      },
+      "width": 258,
+      "height": 258,
+      "fillColor": "#2bc54a",
+      "fillOpacity": 0.2,
+      "borderColor": "#cccccc",
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "rotation": 0,
+      "zIndex": -1
+    },
+    {
+      "id": "freeShape_1773180842409",
+      "shapeType": "circle",
+      "position": {
+        "x": 479.5159755462724,
+        "y": 309.9166070782449
+      },
+      "width": 258,
+      "height": 258,
+      "fillColor": "#3a73f8",
+      "fillOpacity": 0.2,
+      "borderColor": "#cccccc",
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "rotation": 0,
+      "zIndex": -1
+    },
+    {
+      "id": "freeShape_1773180928097",
+      "shapeType": "rectangle",
+      "position": {
+        "x": -167.73953534372336,
+        "y": 133.4874787582115
+      },
+      "width": 622,
+      "height": 191,
+      "fillColor": "#e8e230",
+      "fillOpacity": 0.2,
+      "borderColor": "#cccccc",
+      "borderWidth": 1,
+      "borderStyle": "solid",
+      "rotation": 0,
+      "zIndex": -1
+    }
+  ],
+  "trafficRateAnnotations": [],
+  "groupStyleAnnotations": [],
+  "networkNodeAnnotations": [],
+  "nodeAnnotations": [
+    {
+      "id": "P1",
+      "position": {
+        "x": 140,
+        "y": 220
+      }
+    },
+    {
+      "id": "PE1",
+      "position": {
+        "x": -100,
+        "y": 220
+      }
+    },
+    {
+      "id": "PE2",
+      "position": {
+        "x": 360,
+        "y": 220
+      }
+    },
+    {
+      "id": "CE1",
+      "position": {
+        "x": -280,
+        "y": 360
+      }
+    },
+    {
+      "id": "CE2",
+      "position": {
+        "x": 560,
+        "y": 360
+      }
+    },
+    {
+      "id": "PC1",
+      "position": {
+        "x": -380,
+        "y": 460
+      },
+      "icon": "client"
+    },
+    {
+      "id": "PC2",
+      "position": {
+        "x": 640,
+        "y": 480
+      },
+      "icon": "client"
+    }
+  ],
+  "edgeAnnotations": [],
+  "aliasEndpointAnnotations": [],
+  "viewerSettings": {}
+}

@@ -1,0 +1,59 @@
+name: lab-vyos-pc
+
+topology:
+  nodes:
+    # --- P1 ---
+    P1:
+      kind: vyosnetworks_vyos
+      image: vyos:1.5
+      mgmt-ipv4: 172.20.20.11
+
+    # --- PE1 ---
+    PE1:
+      kind: vyosnetworks_vyos
+      image: vyos:1.5
+      mgmt-ipv4: 172.20.20.12
+
+    # --- PE2 ---
+    PE2:
+      kind: vyosnetworks_vyos
+      image: vyos:1.5
+      mgmt-ipv4: 172.20.20.13
+
+    # --- CE1 ---
+    CE1:
+      kind: vyosnetworks_vyos
+      image: vyos:1.5
+      mgmt-ipv4: 172.20.20.14
+
+    # --- CE2 ---
+    CE2:
+      kind: vyosnetworks_vyos
+      image: vyos:1.5
+      mgmt-ipv4: 172.20.20.15
+
+    #PC1
+    PC1:
+      kind: linux
+      image: mi-pc-ssh:latest
+      mgmt-ipv4: 172.20.20.16
+
+    #PC2
+    PC2:
+      kind: linux
+      image: mi-pc-ssh:latest
+      mgmt-ipv4: 172.20.20.17
+
+  links:
+    # Enlace entre los dos Routers (Backbone)
+    - endpoints: [ "P1:eth1", "PE1:eth1" ]
+
+    - endpoints: [ "P1:eth2", "PE2:eth1" ]
+
+    - endpoints: [ "PE2:eth2", "CE2:eth1" ]
+
+    - endpoints: [ "PE1:eth2", "CE1:eth1" ]
+
+    - endpoints: [ "CE1:eth2", "PC1:eth1" ]
+
+    - endpoints: [ "CE2:eth2", "PC2:eth1" ]
